@@ -1,0 +1,108 @@
+a {
+    color: #005C66;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover {
+    color: #730B44;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #005C66;
+    letter-spacing: .25rem;
+    overflow: auto;
+}
+
+button {
+    padding: 30px;
+    background-color: #730B44;
+    border: none;
+}
+
+button:active {
+    background-color: #005C66;
+}
+
+button:focus {outline:0;}
+
+.center-txt {
+    text-align: center;
+}
+
+.contact-btn {
+    text-align: center;
+}
+
+.container {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: #730B44;
+    padding: 20px;
+}
+
+h6 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.jumbotron-photo {
+    width: 100%;
+    height: 30%;
+}
+
+.jumbotron-text {
+    padding: 2% 5%;
+}
+
+.jumbotron-title {
+    padding-left: 2%;
+}
+
+.nav{
+    background-color: #730B44;
+}
+
+.nav-item {
+    padding: 1% 4%;
+}
+
+.nav-link {
+    color: gray;
+}
+
+/* The Modal*/
+.modal {
+    max-width: 50%;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color: gray;
+  }
+  
+.modal-photo {
+    margin: 5% 15%;
+    width: 75%;
+}
+
+.modal a.close-modal {
+    top: 5px;
+    right: 5px;
+}
+
+

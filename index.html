@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kimberly Clary</title>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Dancing+Script:700&display=swap" rel="stylesheet">
+    <!-- jQuery Modal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    
+    <!-- Heading-->
+    <div class="container-fluid">
+        <h1>Kimberly Clary</h1>
+        <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <button class="nav-link" onClick="jumboText(about, aboutText, photo2)">ABOUT ME</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" onClick="jumboText(skills, skillsText, photo3)">SKILLS</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" onClick="jumboText(projects, projectsText, photo4)">PROJECTS</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" onClick="jumboText(contact, contactText, photo5)">GET IN TOUCH</button>
+                </li>
+              </ul>
+    </div>
+
+    <!-- Black and White Portfolio Modal -->
+    <div id="blackWhite" class="modal">
+        <div class="row">
+            <h4 class="heading modal-title col-md-10">BLACK + WHITE PORTFOLIO</h4>
+        </div>
+        <img src="assets/images/bwportfolio-screenshot.png" class="modal-photo">
+        <p>Portfolio website built using a template from
+            <a href="https://bootstrapious.com/" target="_blank" title="Bootstrapious">Bootstrapious</a> and modified to fit my needs.</p>
+        <div class="row ">
+            <div class="col-md-6">
+                <b>TECHNOLOGIES USED</b>
+            </div>
+            <div class="col-md-6">
+                <p>HTML | CSS | Bootstrap | JavaScript | jQuery</p>
+            </div>
+        </div>
+        <div class="modal-links">
+            <a href="https://github.com/Bee406/Bee406.github.io" target="_blank" title="Repository">
+                <h6>GITHUB REPOSITORY</h6>
+            </a>
+            <a href="https://bee406.github.io/" target="_blank" title="Black + White Portfolio">
+                <h6>VISIT WEBSITE</h6>
+            </a>
+        </div>
+    </div>
+
+    <!-- ZeroMark Modal -->
+    <div id="zeroMark" class="modal">
+        <div class="row">
+            <h4 class="modal-title col-md-10">ZEROMARK</h4>
+        </div>
+        <img src="assets/images/zero-mark-screenshot.png" class="modal-photo">
+        <p>Webpage built to give users easy access to information on hikes in their area, as well as provide feedback on recently
+            completed hikes.</p>
+        <div class="row ">
+            <div class="col-md-6">
+                <b>TECHNOLOGIES USED</b>
+            </div>
+            <div class="col-md-6">
+                <p>HTML | CSS | Bootstrap | JavaScript | jQuery</p>
+            </div>
+        </div>
+        <div class="modal-links">
+            <a href="https://github.com/ayim84/Zero-Mark" target="_blank" title="Repository">
+                <h6>GITHUB REPOSITORY</h6>
+            </a>
+            <a href="https://ayim84.github.io/Zero-Mark/" target="_blank" title="Zero Mark">
+                <h6>VISIT WEBSITE</h6>
+            </a>
+        </div>
+    </div>
+
+    <!-- Safe Chex Modal -->
+    <div id="safeChex" class="modal">
+        <div class="row">
+            <h4 class="heading modal-title col-md-10">SAFECHEX</h4>
+        </div>
+        <img src="assets/images/safechex-screenshot.png" class="modal-photo">
+        <p>Application designed to allow users to report their activity or check on loved ones in times of disaster.</p>
+        <div class="row ">
+            <div class="col-md-6">
+                <b>TECHNOLOGIES USED</b>
+            </div>
+            <div class="col-md-6">
+                <p>HTML | CSS | Bootstrap | JavaScript | Node.js | React.js</p>
+            </div>
+        </div>
+        <div class="modal-links">
+            <a href="https://github.com/Bee406/hurricaneApp" target="_blank" title="Repository">
+                <h6>GITHUB REPOSITORY</h6>
+            </a>
+            <a href="https://boiling-hollows-71529.herokuapp.com " target="_blank" title="SafeChex">
+                <h6>VISIT WEBSITE</h6>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Main Photo -->
+    <div class="main-photo">
+        <img class="jumbotron-photo" src="assets/images/JHN_7860.jpg">
+    </div>
+
+    <!-- Jumbotron Text -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="jumbotron-title"></div>
+            <div class="jumbotron-text"></div>
+        </div>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script src="./assets/javascript/app.js"></script>
+
+</html>
